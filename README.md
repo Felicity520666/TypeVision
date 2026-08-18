@@ -1,6 +1,8 @@
 # TypeVision
 
-A real-time webcam-to-ASCII-art renderer built with [p5.js](https://p5js.org/).
+## About This Project
+
+This is a real-time webcam-to-ASCII-art renderer built with [p5.js](https://p5js.org/).
 
 Your camera feed is converted into colored ASCII characters that fill the entire browser window, resizing dynamically when the window changes.
 
@@ -14,6 +16,10 @@ Your camera feed is converted into colored ASCII characters that fill the entire
 
 Open `index.html` in any modern browser and allow camera access when prompted. No build step or server required.
 
+## Online Demo
+
+You can also play with TypeVision online at []
+
 ## Controls
 
 - The canvas automatically fills the browser window and responds to resizing.
@@ -23,6 +29,6 @@ Open `index.html` in any modern browser and allow camera access when prompted. N
 
 - [p5.js 1.9.4](https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/p5.js) (loaded via CDN)
 
-## License
+## Project Screenshot
 
-MIT
+![Screenshot of TypeVision in action](Screenshot.png)
