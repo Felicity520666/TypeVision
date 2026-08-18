@@ -35,4 +35,4 @@ You can also play with TypeVision online at []()
 
 ## Creator
 
-Made by [Felicity](https://github.com/Felicity520666).Feedback and suggestions are very welcome!
+Made by [Felicity](https://github.com/Felicity520666). Feedback and suggestions are very welcome!
