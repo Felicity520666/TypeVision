@@ -1,16 +1,26 @@
 let video;
-let vidw = 80;
-let vidh = 60;
 let scl = 10;
+let vidw, vidh;
 let w, h;
 
 let asciiChar = "$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/\\|()1{}[]?-_+~<>i!lI;:,\"^`'. ";
 
 function setup() {
-    createCanvas(vidw * scl, vidh * scl);
+    createCanvas(windowWidth, windowHeight);
+    vidw = floor(width / scl);
+    vidh = floor(height / scl);
     video = createCapture(VIDEO);
     video.size(vidw, vidh);
     video.hide();
+    w = width / vidw;
+    h = height / vidh;
+}
+
+function windowResized() {
+    resizeCanvas(windowWidth, windowHeight);
+    vidw = floor(width / scl);
+    vidh = floor(height / scl);
+    video.size(vidw, vidh);
     w = width / vidw;
     h = height / vidh;
 }
