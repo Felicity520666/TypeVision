@@ -18,7 +18,7 @@ Open `index.html` in any modern browser and allow camera access when prompted. N
 
 ## Online Demo
 
-You can also play with TypeVision online at []
+You can also play with TypeVision online at []()
 
 ## Controls
 
@@ -32,3 +32,8 @@ You can also play with TypeVision online at []
 ## Project Screenshot
 
 ![Screenshot of TypeVision in action](Screenshot.png)
+
+## Creator
+
+- [Felicity](https://github.com/Felicity520666)
+Feedback and suggestions are very welcome!
